@@ -117,6 +117,20 @@ all.config
 # fetched Android config fragments
 android/configs/android-*.cfg
 
+# kernel-out-files
+out
+
+# kernel-modules
+wireguard
+
+# kernel-build-tools
+toolchain
+phone_build.sh
+server_build.sh
+
+# other-files
+paper-kernel_debug
+
 # Clang's compilation database file
 /compile_commands.json
 
